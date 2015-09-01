@@ -1,0 +1,37 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Axis2 -JAXWS Version Service
+[INFO]    task-segment: [package]
+[INFO] ------------------------------------------------------------------------
+[INFO] [resources:resources {execution: default-resources}]
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-version/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-version/src/test/resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-version/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [jar:jar {execution: default-jar}]
+[INFO] Building jar: /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-version/target/jaxws-version-1.7.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4 seconds
+[INFO] Finished at: Wed Sep 02 00:29:26 BDT 2015
+[INFO] Final Memory: 26M/166M
+[INFO] ------------------------------------------------------------------------

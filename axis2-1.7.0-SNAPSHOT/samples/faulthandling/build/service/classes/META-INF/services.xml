@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.7.0-SNAPSHOT  Built on : Sep 02, 2015 (12:03:48 BDT) -->
+<serviceGroup>
+    <service name="BankService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="example.BankServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">example.BankServiceSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="withdraw" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://example">
+            <actionMapping>http://example/Bank/withdrawRequest</actionMapping>
+            <outputActionMapping>http://example/Bank/withdrawResponse</outputActionMapping>
+            <faultActionMapping faultName="AccountNotExistException">http://example/Bank/withdraw/Fault/AccountNotExistException</faultActionMapping>
+            <faultActionMapping faultName="AccountNotExistFaultMessage">http://example/Bank/withdraw/Fault/AccountNotExistException</faultActionMapping>
+            <faultActionMapping faultName="AccountNotExistFaultMessage_Exception">http://example/Bank/withdraw/Fault/AccountNotExistException</faultActionMapping>
+            <faultActionMapping faultName="InsufficientFundException">http://example/Bank/withdraw/Fault/InsufficientFundException</faultActionMapping>
+            <faultActionMapping faultName="InsufficientFundFaultMessage">http://example/Bank/withdraw/Fault/InsufficientFundException</faultActionMapping>
+            <faultActionMapping faultName="InsufficientFundFaultMessage_Exception">http://example/Bank/withdraw/Fault/InsufficientFundException</faultActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

@@ -1,0 +1,86 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JAXWS Samples - Echo, Ping, MTOM
+[INFO]    task-segment: [package]
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.2/maven-dependency-plugin-2.2.pom
+10K downloaded  (maven-dependency-plugin-2.2.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/19/maven-plugins-19.pom
+10K downloaded  (maven-plugins-19.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.2/maven-dependency-plugin-2.2.jar
+124K downloaded  (maven-dependency-plugin-2.2.jar)
+[INFO] [resources:resources {execution: default-resources}]
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+Downloading: http://repo1.maven.org/maven2/com/sun/xml/ws/jaxws-rt/2.1.3/jaxws-rt-2.1.3.pom
+3K downloaded  (jaxws-rt-2.1.3.pom)
+Downloading: http://repo1.maven.org/maven2/com/sun/xml/ws/jaxws-rt/2.1.3/jaxws-rt-2.1.3.jar
+1160K downloaded  (jaxws-rt-2.1.3.jar)
+[INFO] [compiler:compile {execution: default-compile}]
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 46 source files to /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/src/test
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom
+2K downloaded  (maven-reporting-api-3.0.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
+4K downloaded  (maven-reporting-impl-2.0.5.pom)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom
+7K downloaded  (plexus-utils-1.5.7.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+5K downloaded  (maven-doxia-tools-1.0.2.pom)
+Downloading: http://repo1.maven.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.pom
+12K downloaded  (commons-io-1.4.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/commons/commons-parent/7/commons-parent-7.pom
+17K downloaded  (commons-parent-7.pom)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-5/plexus-io-1.0-alpha-5.pom
+1K downloaded  (plexus-io-1.0-alpha-5.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.pom
+4K downloaded  (maven-dependency-analyzer-1.2.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.0.7/maven-invoker-2.0.7.pom
+2K downloaded  (maven-invoker-2.0.7.pom)
+Downloading: http://repo1.maven.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-5/plexus-io-1.0-alpha-5.jar
+20K downloaded  (maven-reporting-impl-2.0.5.jar)
+40K downloaded  (maven-doxia-tools-1.0.2.jar)
+49K downloaded  (plexus-io-1.0-alpha-5.jar)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.jar
+27K downloaded  (maven-dependency-analyzer-1.2.jar)
+106K downloaded  (commons-io-1.4.jar)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.0.7/maven-invoker-2.0.7.jar
+24K downloaded  (maven-invoker-2.0.7.jar)
+[INFO] [dependency:copy-dependencies {execution: copy-modules}]
+[INFO] Copying addressing-1.7.0-SNAPSHOT.mar to /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/target/modules/addressing-1.7.0-SNAPSHOT.mar
+[INFO] [war:war {execution: default-war}]
+[INFO] Packaging webapp
+[INFO] Assembling webapp [jaxws-samples] in [/home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/target/jaxws-samples-1.7.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/target/modules/] to [/home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/target/jaxws-samples-1.7.0-SNAPSHOT]
+[INFO] Copying webapp resources [/home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/src/webapp]
+[INFO] Webapp assembled in [1102 msecs]
+[INFO] Building war: /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/jaxws-samples/target/jaxws-samples.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 59 seconds
+[INFO] Finished at: Wed Sep 02 00:29:20 BDT 2015
+[INFO] Final Memory: 39M/359M
+[INFO] ------------------------------------------------------------------------

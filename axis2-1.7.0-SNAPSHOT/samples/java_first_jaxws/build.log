@@ -1,0 +1,55 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JAXWS - Starting from Java Example
+[INFO]    task-segment: [package]
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo1.maven.org/maven2/org/codehaus/cargo/cargo-maven2-plugin/1.0/cargo-maven2-plugin-1.0.pom
+6K downloaded  (cargo-maven2-plugin-1.0.pom)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/cargo/cargo-extensions-maven2/1.0/cargo-extensions-maven2-1.0.pom
+1K downloaded  (cargo-extensions-maven2-1.0.pom)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/cargo/cargo-extensions/1.0/cargo-extensions-1.0.pom
+4K downloaded  (cargo-extensions-1.0.pom)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/cargo/cargo-parent/4.1/cargo-parent-4.1.pom
+10K downloaded  (cargo-parent-4.1.pom)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/cargo/cargo-maven2-plugin/1.0/cargo-maven2-plugin-1.0.jar
+77K downloaded  (cargo-maven2-plugin-1.0.jar)
+[INFO] [resources:resources {execution: default-resources}]
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] [compiler:compile {execution: default-compile}]
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/java_first_jaxws/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/java_first_jaxws/src/test
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/java_first_jaxws/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [war:war {execution: default-war}]
+[INFO] Packaging webapp
+[INFO] Assembling webapp [java_first_jaxws] in [/home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/java_first_jaxws/target/java_first_jaxws-1.7.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/java_first_jaxws/src/webapp]
+[INFO] Webapp assembled in [206 msecs]
+[INFO] Building war: /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/java_first_jaxws/target/java_first_jaxws-1.7.0-SNAPSHOT.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] [jar:jar {execution: default}]
+[INFO] Building jar: /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/java_first_jaxws/target/java_first_jaxws-1.7.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12 seconds
+[INFO] Finished at: Wed Sep 02 00:30:11 BDT 2015
+[INFO] Final Memory: 34M/294M
+[INFO] ------------------------------------------------------------------------

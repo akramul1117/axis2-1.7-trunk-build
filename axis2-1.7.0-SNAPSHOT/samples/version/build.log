@@ -1,0 +1,35 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Axis2 - Version Service
+[INFO]    task-segment: [package]
+[INFO] ------------------------------------------------------------------------
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] [remote-resources:process {execution: default}]
+[INFO] snapshot org.apache.axis2:axis2-resource-bundle:1.7.0-SNAPSHOT: checking for updates from apache.snapshots
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/version/src/main/resources
+[INFO] Copying 2 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 1 source file to /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/version/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/version/src/test/resources
+[INFO] Copying 2 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] [axis2-aar:aar {execution: default-aar}]
+[INFO] Generating aar /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/version/target/version-1.7.0-SNAPSHOT.aar
+[INFO] Building jar: /home/osan/teamAmericany/repo/trunk/modules/distribution/target/axis2-1.7.0-SNAPSHOT/samples/version/target/version-1.7.0-SNAPSHOT.aar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11 seconds
+[INFO] Finished at: Wed Sep 02 00:28:20 BDT 2015
+[INFO] Final Memory: 34M/290M
+[INFO] ------------------------------------------------------------------------
